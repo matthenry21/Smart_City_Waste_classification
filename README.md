@@ -4,7 +4,7 @@ The system first identifies whether waste is recyclable or non-recyclable, and t
 This project is designed to reflect real-world smart city waste management systems.
 
 ## 🚀 Live Demo
-👉 Streamlit App: (add your Streamlit link here)
+👉 Streamlit App: (http://localhost:8501/)
 Upload a waste image and get:
   - Recyclable / Non-Recyclable prediction
   - Recyclable waste category (if applicable)
