@@ -1,5 +1,8 @@
 # ♻️ Smart City Waste Classification
-An end-to-end deep learning project that classifies waste images using a hierarchical deep learning approach.
+Efficient waste segregation is a major challenge in modern waste management systems. Manual sorting is time-consuming, error-prone, and difficult to scale. This project proposes a hierarchical deep learning approach using Convolutional Neural Networks (CNNs) with transfer learning to automate waste classification.
+
+Instead of directly classifying waste into multiple categories, the system mimics a real-world waste sorting workflow:
+
 The system first identifies whether waste is recyclable or non-recyclable, and then classifies the type of recyclable waste.
 This project is designed to reflect real-world smart city waste management systems.
 
@@ -10,7 +13,7 @@ Upload a waste image and get:
   - Recyclable waste category (if applicable)
   - Prediction confidence
 
-## Project Overview
+## Project architechure
 Instead of using a single flat multi-class classifier, this project uses a two-stage hierarchical pipeline:
 #### Input Image
    ↓
@@ -61,7 +64,7 @@ First, the original dataset was split class-wise into:
 This step was done before any further processing to make sure there is no data leakage and that model evaluation is fair.
 
 
-## 1.Binary Classification Dataset
+## Binary Classification Dataset
 To train the binary classifier, waste categories were grouped as follows:
 Recyclable :
 cardboard, paper, plastic, glass, metal, e-waste
