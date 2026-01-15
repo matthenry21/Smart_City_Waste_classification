@@ -3,7 +3,7 @@ Efficient waste segregation is a major challenge in modern waste management syst
 
 Instead of directly classifying waste into multiple categories, the system mimics a real-world waste sorting workflow:
 
-The system first identifies whether waste is recyclable or non-recyclable, and then classifies the type of recyclable waste.
+The system first identifies whether waste is recyclable or non-recyclable,if only recyclable then classifies the type of recyclable waste.if not then stops.
 This project is designed to reflect real-world smart city waste management systems.
 
 ## 🚀 Live Demo
