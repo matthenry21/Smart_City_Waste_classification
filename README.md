@@ -6,12 +6,6 @@ Instead of directly classifying waste into multiple categories, the system mimic
 The system first identifies whether waste is recyclable or non-recyclable,if only recyclable then classifies the type of recyclable waste.if not then stops.
 This project is designed to reflect real-world smart city waste management systems.
 
-## 🚀 Live Demo
-👉 Streamlit App: (http://localhost:8501/)
-Upload a waste image and get:
-  - Recyclable / Non-Recyclable prediction
-  - Recyclable waste category (if applicable)
-  - Prediction confidence
 
 ## Project architechure
 Instead of using a single flat multi-class classifier, this project uses a two-stage hierarchical pipeline:
