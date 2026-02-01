@@ -103,6 +103,12 @@ For both datasets:
 - Multi-Class Model: Recyclable waste categories
 - Early stopping was used to select the best generalizing model.
 
+--
+## 📽️ Streamlit App Demo
+
+🎥 **Demo Video:**  
+🔗 https://www.icloud.com/iclouddrive/0d0isn3CwlsxpOmxK39Pq43fQ
+
 ##  Prediction Pipeline
 1. Image is passed to the binary classifier
 2. If predicted as Non-Recyclable, prediction ends
